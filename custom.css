@@ -1,0 +1,47 @@
+p.lead {font-size:100%}
+.bg-header {background:#F90101}
+.bg-header h5 {color:white; }
+h6 {margin:20px 0;  font-size:18px; font-weight:bold;}
+.nav td{text-align:center; color:white; border:1px solid #eee;  text-transform:uppercase; font-size: 11px;  width:100%; background:#1993ea; line-height:normal; }
+.nav td a {padding:10px 0; display:block; color:white!important; width:100%; height:100%;}
+.nav td a:hover {background:#F90101}
+table.columns tr.nav td.sub-columns {padding-right:0; padding-bottom:0;}
+.success {margin:30px 0;}
+.two-up td {width:258px;}
+.two-up td {border:1px solid #eee; margin:5px; }
+.two-up td img {margin:auto;margin-bottom:15px;}
+.two-up td h4 {margin:15px 0; font-size: 18px; clear:both;}
+.stars {color:orange; }
+.clear {clear:both;}
+.discount {color:white; float:right; background:#F90101; font-size:12px; padding:5px; border-radius:3px; margin-top:7px;}
+.price {float:left;}
+.icon {float:left; padding-right: 10px; }
+.two-up td .icon img {margin-bottom:0;}
+
+@media only screen and (max-width: 600px) {
+    table[class="container"] .block-grid td {
+        width: 100% !important;
+    }
+}
+.panel {
+    background-color: #1993ea;
+    font-weight:bold;
+}
+.panel>a{
+    color:white;
+}
+.panel>a:visited{
+    color:white;
+}
+span.preheader{
+    color: transparent;
+    display: none !important;
+    height: 0;
+    max-height: 0;
+    max-width: 0;
+    mso-hide : all;
+    opacity: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
