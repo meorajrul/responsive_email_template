@@ -1,5 +1,6 @@
 # PHP based Responsive Email Template
-responsive email template using zurb ink and inline css injector from christiaan/InlineStyle
+responsive email template using zurb ink and inline css injector
+based on zurb.com/ink/ and https://github.com/christiaan/InlineStyle
 
 1. get composer and run command composer install
 2. edit all your file in email.html
